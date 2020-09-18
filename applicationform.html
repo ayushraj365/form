@@ -1,0 +1,149 @@
+
+<!DOCTYPE html>
+<head><title>Registration Form</title>
+<style>
+
+div.upper{
+	border: 2px solid #c47979;
+	border-radius: 20px;
+	padding: 15px;
+	width: 97%;
+	z-index: -1;
+	margin-top:20px;
+	background-color:rgb(143, 228, 228);
+}
+div.lower{
+	position: absolute;
+	top: 47px;
+    left: 22px;
+	background-color: #c47979;
+	background-color:rgb(240, 247, 247);
+}
+label{
+	display: inline-block;
+	width : 155px;	
+}
+
+button:hover {
+	background-color:green;
+  color: black;
+    text-align: center;
+  display: inline-block;
+  font-size: 16px;
+}
+
+</style>
+</head>
+<body>
+	
+<div>
+<h1><b><center><u><mark style="background-color: rgb(240, 247, 247);">Registration</mark></center></u></b></center></h1>
+<div class="lower">
+<h2 style="margin-bottom: 0px;">Basic Details</h2>
+</div>
+<div class="upper">
+<form>
+<label for="form_number">Form Number</label>
+<input type="text"><br>
+<label for="name" >Name</label>
+<input type="text" placeholder="AYUSH RAJ"><br>
+<label for="roll">Roll Number</label>
+<input type="text" placeholder="1906134"><br>
+<label for="gender">Gender</label>
+<input type="radio">Male
+<input type="radio">Female<br>
+<label for="dob">DOB</label>
+<input type="date"><br>
+<label for="pwd">PWD</label>
+<input type="radio">YES
+<input type="radio">NO<br>
+<label for="category">Category</label>
+<select>
+    <option>GEN</option>
+    <option>OBC</option>
+    <option>SC</option>
+	<option>ST</option>
+</select><br>
+<label>Address</label><br>
+<textarea rows="7" cols="60"></textarea><br>
+<label >Post Office</label>
+<input type="text"><br>
+<label for="pincode">Pincode</label>
+<input type="text"><br>
+<label for="student">Phone No. of Student</label>
+<input type="text"><br>
+<label for="guardian">Phone No. of Guardian</label>
+<input type="text"><br>
+</form>
+</div>
+<div class="lower" style="top: 488px" >
+<h2 style="margin: 0px;">Academic Information</h2>
+</div>
+<div class="upper">
+<form>
+<label>Course</label>
+<select>
+	<option>B.Tech</option>
+	<option>M.Tech</option>
+	<option>B.Architecture</option>
+	<option>PhD</option>
+</select><br>
+<label>Branch</label>
+<input type=text><br>
+<label>Semester</label>
+<select>
+	<option>1st</option>
+	<option>2nd</option>
+	<option>3rd</option>
+	<option>4th</option>
+	<option>5th</option>
+	<option>6th</option>
+	<option>7th</option>
+	<option>8th</option>
+</select>(for which allotment will be done)<br>	
+<label>All India Rank</label>
+<input type="text">(2020 JEE Main/GATE)<br>
+<label>Category Rank</label>
+<input type="text">(2020 JEE Main/GATE)<br>
+<label>CGPA</label>
+<input type="text"><br>
+<label>Backlog</label>
+<input type="radio">Yes
+<input type="radio">No<br>
+<label>Hostel Accomodation</label>
+<input type="radio">Yes
+<input type="radio">No   (If any)<br>
+<label>Name of Hostel</label>
+<input type="text"><br>
+<label>Room Number</label>
+<input type="text"><br>
+</form>
+</div>
+<div class="lower" style="top: 752px">
+<h2 style="margin: 0px;">Account Details For Refunding Process</h2>
+</div>
+<div class="upper">
+<form>
+<label>Account Holder Name</label>
+<input type="text">As Per Bank Passbook<br>
+<label>Account Number</label>
+<input type="text"><br>
+<label>IFSC Code</label>
+<input type="text"><br>
+<label>Bank Name</label>
+<input type="text"><br>
+<label>Bank Branch</label>
+<input type="text">
+</form>
+</div>
+</div>
+<div class="lower" style="top: 488px">
+	<h2 style="margin: 0px;">Academic Information</h2>
+	</div>
+	<div class="upper" style="background-color: white; border: white;">
+	<form>
+		<b>Terms and Conditions</b></legend><div class="p"><p><input type="checkbox"name=""value="">I certify that the above information provided by me is correct to best of my knowledge.<br>
+			<button  type="submit" class="submit" >Submit</button>
+		<button  type="reset" class="Reset"  >Reset</button>	</div></form>
+</body>
+</html>
